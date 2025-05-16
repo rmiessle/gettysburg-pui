@@ -1,0 +1,216 @@
+/* code adapated from https://archivesspace.library.gsu.edu/ */
+
+/*Update heading font to Monserrat and body font to Noto Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat.ttf') format('ttf'),
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/assets/fonts/NotoSans.ttf') format('ttf'),
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body,h1,h2,h3,h4,h5,h6 {
+  color: #333333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+/*  font-weight: 700; */
+}
+
+body,a,input,button,.btn, #submit_search.btn.btn-primary {
+  font-family: 'Noto Sans', sans-serif;
+  /*line-height: 1.5; */
+}
+
+h1,.h1,h2,h3,h4,h5,h6, {
+  font-family: 'Noto Sans', sans-serif;
+/*  line-height: 1.5; */
+}
+
+.top-bar,.panel-footer,.searchstatement,#whats-in-container h3 {
+  background: #f9fafb !important;
+}
+
+.searchstatement {
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+a,a:hover,.h1,.h1:hover,a.accordion-toggle {
+  color: #002f6c;
+}
+
+#header .logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  /*margin: 1em 0;*/
+}
+
+section#header {
+  background-color: #002f6c;
+}
+
+#header .row,#header > .row {
+  border-bottom-color: #002f6c;
+  height: 100px;
+}
+
+#header .h1 {
+   margin-top: 45px;
+}
+
+#header .h1,#header .h1 a {
+  color: #002f6c;
+}
+
+nav a,.navbar-default .navbar-nav > li > a {
+  color: #002f6c;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #002f6c;
+}
+
+.fa-search::after {
+  color: #002f6c;
+  content: " Search";
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.fa-search:hover,.fa-search:hover::after {
+  color: #002f6c;
+  text-decoration: underline;
+}
+
+.btn-primary,.btn-primary:hover,.btn .btn-primary,.acc_button, #submit_search.btn.btn-primary {
+  background: #002f6c;
+  border-color: #002f6c;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+.top-bar {
+  border-color: #002f6c;
+}
+
+.record-type-badge {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.identifier .id-label,.inline-label {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* .record-type-badge,.record-type-badge.resource,.record-type-badge.repository,.record-type-badge.digital_object,.record-type-badge.subject,.record-type-badge.agent,.record-type-badge.accession,.record-type-badge.classification,.record-type-badge.archival_object,.record-type-badge.digital_object */
+.btn.resource,.btn.subject,.agent,.classification,.btn.accession,.btn.digital_object,.btn.request,.large-badge,.btn.print,.top_container,.acc_btn
+ {
+  border: none;
+  color: #333333;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* Normal and hover colour for every page link */
+.pagination .page-link,
+.pagination .page-link:hover {
+  color: #002f6c;               /* navy text */
+}
+
+/* Active (current) page — keep navy background & white text */
+.pagination .page-item.active .page-link,
+.pagination .page-item.active .page-link:hover,
+.pagination .page-item.active .page-link:focus {
+  background: #002f6c;          /* navy bg */
+  border-color: #002f6c;        /* navy border */
+  color: #fff;                  /* white text */
+  cursor: default;              /* optional: arrow becomes default */
+}
+
+.pagination > li > a,.pagination > li > a:hover {
+  color: #002f6c;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background: #002f6c;
+  border-color: #002f6c;
+}
+
+.pagination li a {
+  color: #002f6c;
+}
+
+.tabbing.nav-pills > li > a.active {
+  background: #002f6c;
+}
+
+.tabbing.nav-pills > li > a {
+  background: lightgray;
+  color: #333333;
+}
+
+.breadcrumb * a {
+  color: #002f6c;
+}
+
+#whats-in-container {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: #333333;
+}
+
+#whats-in-container h3 {
+  border-bottom: 1px solid lightgray;
+  color: #333333;
+}
+
+.panel {
+  box-shadow: none;
+}
+
+.panel-default > .panel-heading,.breadcrumb {
+  background: #f9fafb;
+  border: 1px solid #f9fafb;
+}
+
+.readmore__label--more,
+.readmore__label--less {
+  border-color: #002f6c;
+  color: #002f6c;
+}
+
+#load-all-section {
+  background-color: #002f6c;
+  color: white; 
+}
+
+.node-title, .node-body {
+  color: #002f6c;
+}
+
+.load-all__label-toggle {
+  background: #457141;
+}
+
+#load-all-section.bg-secondary {
+  background-color: #002f6c !important;
+}
+
+#below-fold {
+  padding: 2.5rem;
+}
