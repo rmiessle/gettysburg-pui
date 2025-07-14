@@ -6,4 +6,5 @@ This plugin applies the following modifications:
 * `/public/views/_header.html.erb`: Removes columns from the header
 * `/public/views/layout_head.html.erb`: Calls custom.css
 * `/public/views/repositories/_full_repo.html.erb`: Changes email to link to contact page (Ask an Archivist)
+
 Tested with ArchivesSpace 4.0 and above.
